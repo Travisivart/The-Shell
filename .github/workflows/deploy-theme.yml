@@ -8,8 +8,8 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/[email protected]
-      - uses: TryGhost/[email protected]
+      - uses: actions/${{ secrets.GHOST_ADMIN_EMAIL }}
+      - uses: TryGhost/${{ secrets.GHOST_ADMIN_EMAIL }}
         with:
           api-url: ${{ secrets.GHOST_ADMIN_API_URL }}
           api-key: ${{ secrets.GHOST_ADMIN_API_KEY }}
