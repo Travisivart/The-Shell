@@ -2,10 +2,10 @@
     "name": "the-shell",
     "description": "Theme for Ghost which use 'Ghost in The Shell' animation series palette colors",
     "demo": "https://ghostintheshell.ghost.io",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "engines": {
-        "ghost": ">=3.0.0",
-        "ghost-api": "v3"
+        "ghost": ">=4.0.0",
+        "ghost-api": "v4"
     },
     "license": "MIT",
     "screenshots": {
